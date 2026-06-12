@@ -1,0 +1,88 @@
+.besetsellers-section01 {
+    width: 1920px; height:auto;
+    padding: 124px 80px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.ul-nav {
+    width: 100%; height: auto;
+    padding: 65px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #E1DED9;
+}
+h2 { 
+    font-size: 28px; 
+    font-weight: 700;
+}
+h3 { 
+    font-size: 16px; 
+    font-weight: 600;
+}
+.amp-swiper {
+    width: 1920px; height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+.best-product-list01, .best-product-list02, .best-product-list03, .best-product-list04 {
+    width: 410px; height: 665px;
+    display: flex;
+    flex-direction: column;
+}
+.product-img01, .product-img02, .product-img03, .product-img04 {
+    width: 100%; height: 410px;
+    background-color: #EBEBEB;
+}
+.tile-body-footer01 {
+    display: flex;
+    flex-direction: column;
+}
+.footer01-tile-body01, .footer02-tile-body01, .footer03-tile-body01, .footer04-tile-body01 {
+    width: 100%; height: auto;
+    padding: 40px 0 42px 0;
+    font-size: 16px; 
+    font-weight: 600;
+}
+.footer01-tile-body02, .footer02-tile-body02, .footer03-tile-body02, .footer04-tile-body02 {
+    width: 100%; height: auto;
+    border-bottom: 1px solid #E1DED9;
+    padding-bottom: 40px;
+    font-size: 14px; 
+    font-weight: 400;
+}
+.footer01-tile-body03, .footer02-tile-body03, .footer03-tile-body03, .footer04-tile-body03 {
+    width: 100%; height: auto;
+    padding: 14px 0 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+span {
+    font-size: 16px; 
+    font-weight: 700;
+}
+.footer01-size01, .footer02-size02, .footer03-size03, .footer04-size04 {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.footer01-size01-s01, .footer02-size02-s01, .footer03-size03-s01, .footer04-size04-s01 {
+    font-size: 14px; 
+    font-weight: 600;
+    text-decoration-line: underline;
+}
+.footer01-size01-s02, .footer02-size02-s02, .footer03-size03-s02, .footer04-size04-s02 {
+    font-size: 14px; 
+    font-weight: 400;
+}
+.footer01-button, .footer02-button, .footer03-button, .footer04-button {
+    width: auto; height: auto;
+    border: 1px solid #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+}
