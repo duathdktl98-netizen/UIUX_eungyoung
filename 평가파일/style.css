@@ -1,7 +1,7 @@
-.besetsellers-section01 {
-    width: 1920px; height:auto;
+.besetsellers-section {
+    /* width: 1920px; height:auto; */
     padding: 124px 80px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
 }
@@ -13,16 +13,25 @@
     align-items: center;
     border-top: 1px solid #E1DED9;
 }
-h2 { 
+/* h2 { 
     font-size: 28px; 
     font-weight: 700;
 }
 h3 { 
-    font-size: 16px; 
-    font-weight: 600;
+    font-size: 28px; 
+    font-weight: 700;
+} */
+.section-title {
+    font-size: 28px; 
+    font-weight: 700;
+}
+.view-all {
+    font-size: 28px; 
+    font-weight: 700;
 }
 .amp-swiper {
-    width: 1920px; height: auto;
+    /* width: 1920px; height: auto; */
+    /* 섹션 패딩과 합쳐져 가로 스크롤이 생길 수 있으므로 고정 폭은 뺀다 */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -79,10 +88,14 @@ span {
     font-size: 14px; 
     font-weight: 400;
 }
-.footer01-button, .footer02-button, .footer03-button, .footer04-button {
-    width: auto; height: auto;
-    border: 1px solid #333;
+/* .footer01-button, .footer02-button, .footer03-button, .footer04-button { */
+.best-pro-btn {
+    /* width: auto; height: auto; */
+    border: 1px solid #e1ded9;
     padding: 10px 20px;
     display: flex;
     justify-content: center;
+    color: #212529;
+    font-size: 14px;
+    cursor: pointer;
 }
